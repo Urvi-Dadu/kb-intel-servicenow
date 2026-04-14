@@ -1,0 +1,14 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local notes / scratch
+.notes/
+scratch/
+*.scratch.md
