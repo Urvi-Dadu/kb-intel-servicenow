@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  UI Macro: kb_intel_suggestion_panel
+  Application: Global
+  Purpose: passive placeholder div. No Jelly evaluation. Filled by the onLoad
+  Client Script (CS_incident_suggestions_load) via GlideAjax.
+
+  See docs/adr/0003-suggestion-panel-rendering.md for rationale.
+-->
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide">
+  <div id="kbi_panel" style="border:1px solid #d0d7de;padding:12px;border-radius:6px;background:#f6f8fa;margin:10px 0;">
+    <em style="color:#57606a;">Loading similar past resolutions...</em>
+  </div>
+</j:jelly>
